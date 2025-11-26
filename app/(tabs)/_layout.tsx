@@ -1,9 +1,7 @@
-// TabLayout.tsx
 import { BOTTOM_BAR_HEIGHT } from "@/constants/theme"; // Must be defined
 import { Tabs } from "expo-router";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Analytics, Chats, History, Home, Payments } from "../../assets/svg";
-// Notifications SVG component added
 
 export default function TabLayout() {
   const insets = useSafeAreaInsets();
